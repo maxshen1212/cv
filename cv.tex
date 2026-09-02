@@ -1,0 +1,113 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\usepackage{amsmath}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=[rgb]{0.6,0.1,0.12}
+}
+\urlstyle{same}
+
+\setlist[itemize,2]{label={$\bullet$}}
+
+\renewcommand*{\labelenumi}{[\labelprefix\theenumi]}
+\def\labelprefix{C}
+
+\name{M\lowercase{ax} S\lowercase{hen}}
+\address{\texttt{(206) 840-9791} \\ \texttt{chihhans@usc.edu}}
+\address{\href{https://github.com/maxhsne1212}{\texttt{github.com/maxhsne1212}} \\ \href{https://linkedin.com/in/maxshen1212}{\texttt{linkedin.com/in/maxshen1212}}}
+
+\begin{document}
+
+\begin{rSection}{Research Interests}
+% TODO: 補上你的 research interests
+\end{rSection}
+
+\begin{rSection}{Education}
+\begin{rSubsection}{University of Southern California, {\normalfont Los Angeles, CA}}{Jan 2026 -- May 2027}{M.S. {\normalfont in Computer Science}}{}
+\end{rSubsection}
+\begin{rSubsection}{University of Washington, {\normalfont Seattle, WA}}{Sept 2025 -- Dec 2025}{M.S. {\normalfont in Computer Science and Software Engineering}}{}
+\end{rSubsection}
+\begin{rSubsection}{National Chin-Yi University of Technology, {\normalfont Taichung, Taiwan}}{Sept 2019 -- Jun 2023}{B.Eng. {\normalfont in Computer Science and Information Engineering}}{}
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Skills}
+\textbf{Programming Languages:} C++, Python, Java, JavaScript \\
+\textbf{Frameworks:} ROS2, Isaac Sim/Lab, LeRobot, PyTorch, TensorFlow, React, Express, FastAPI \\
+\textbf{DevOps:} Git, Docker, CI/CD, GitHub Actions, GitLab, Linux, Terraform, AWS, Claude, Codex
+\end{rSection}
+
+\begin{rSection}{Research Experience}
+\begin{rSubsection}{SLURM Lab, {\normalfont USC}}{Jan 2026 -- Present}{Advisor: Daniel Seita}{Los Angeles, CA}
+\item Researching an approach to estimate robotic world models and improve the accuracy of world model policy evaluation.
+\end{rSubsection}
+\begin{rSubsection}{Smart Manufacturing Lab, {\normalfont NCUT}}{Aug 2022 -- Jun 2023}{Advisor: Yu-Chi Liu}{Taichung, Taiwan}
+\item[] \textit{Project: Utilizing BPNN Model for Predicting Thermal Errors in the CNC Machine (VMP-40)}
+\item Utilized the BPNN models to predict thermal errors in CNC machines, collecting data via wireless sensors and analyzing by Pearson Correlation analysis.
+\item Implemented the BPNN model via TensorFlow and applied Multi-objective Particle Swarm Optimization to enhance prediction accuracy by 15\%.
+\item Designed wireless sensors to replace traditional wire sensors, accelerating the experiment process.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Professional Experience}
+\begin{rSubsection}{Graphen -- R\&D Team}{May 2026 -- Aug 2026}{Robotics AI Intern}{Taipei, Taiwan}
+\item Architected an end-to-end multimodal data infrastructure, integrating teleoperation collection, automated cleaning workflows, and MoCap systems for rapid demonstration acquisition.
+\item Trained synchronized bimanual manipulation policies using the NVIDIA Isaac GR00T N1.7 foundation model, applying Domain Randomization to bridge the Sim-to-Real gap.
+\item Scaled distributed model training with PyTorch across cloud infrastructure, integrating synthetic data generation pipelines via NVIDIA Cosmos to enhance policy generalization.
+\end{rSubsection}
+\begin{rSubsection}{DoubleSpot}{Oct 2025 -- Jul 2026}{Software Engineer Intern}{Seattle, WA}
+\item Reconstructed the outdated system to improve the development workflow and system architecture.
+\item Developed a multi-tenant hybrid mobile application for the company's service.
+\end{rSubsection}
+\begin{rSubsection}{Yois -- E-commerce Team}{Aug 2023 -- Jul 2025}{Software Engineer}{Taipei, Taiwan}
+\item Led 5 members to migrate backend infrastructure to AWS, enabling real-time POS data synchronization across 5+ branch stores, resolving multi-location data access issues.
+\item Collaborated with UI/UX designers in Figma to perform a 100\% redesign of the mobile application, significantly improving user experience and system performance.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Projects}
+\begin{rSubsection}{Parameter Merging for Continual Adaptation in VLA Models}{}{}{}
+\item Enhanced generalization by modifying SOTA parameter merging techniques.
+\end{rSubsection}
+\begin{rSubsection}{Cross-domain Benchmarking CNN Models for Visual Affordance Prediction}{}{}{}
+\item Proposed a practical metric, Generalization Score, that quantifies cross-domain transferability, enabling more consistent evaluation of future models.
+\end{rSubsection}
+\begin{rSubsection}{Data Encryption-Based Drone Reconnaissance}{}{}{}
+\item Developed an obstacle detection system, displaying real-time video, transmitted via AES.
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{Publications}
+% TODO
+\end{rSection}
+
+\begin{rSection}{Teaching}
+% TODO
+\end{rSection}
+
+\begin{rSection}{Services}
+% TODO
+\end{rSection}
+
+\begin{rSection}{Student Mentorship}
+% TODO
+\end{rSection}
+
+\begin{rSection}{Invited Talks}
+% TODO
+\end{rSection}
+
+\begin{rSection}{Honors and Awards}
+% TODO
+\end{rSection}
+
+\end{document}
